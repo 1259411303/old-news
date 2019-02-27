@@ -1,0 +1,203 @@
+	/*表头css*/
+	.frames{
+		width: 92%;
+		min-width: 1070px;
+	}
+	.head_box {
+		width: 100%;
+		height: 50px;
+		padding-top: 7px;
+		box-sizing: border-box;
+		background: #f8f8f9;
+	}
+	
+	.head_box div {
+		float: left;
+	}
+	
+	.head_left {
+		width: 150px;
+		height: 35px;
+		margin-left: 20px;
+		font-size: 15px;
+		line-height: 35px;
+	}
+	.head_left div{
+		width: 5px;
+		height: 25px;
+		background: #19be6b;
+		margin-top: 5px;
+	}
+	
+	.head_right {
+	}
+	
+	.head_right li {
+		width: 120px;
+		height: 35px;
+		text-align: center;
+		line-height: 35px;
+		font-size: 15px;
+		border-radius: 4px;
+		float: left;
+		margin-left: 10px;
+		border: 1px solid #dddee1;
+	}
+	.active_color{
+		background: #2d8cf0;
+		color: white;
+	}
+	/*周视图css*/
+	.week_frames{
+		width: 100%;
+		padding-left: 152px;
+		padding-top: 20px;
+	}
+	.box {
+		width: 100%;
+		border: 1px solid #dddee1;
+	}
+	
+	.head {
+		width: 100%;
+		height: 45px;
+		border-bottom: 1px solid #dddee1;
+		background: #f8f8f9;
+	}
+	.header_chart{
+		width: 407px;
+		height: 45px;
+		padding-top: 4px;
+		box-sizing: border-box;
+		float: right;
+		-background: #0000FF;
+	}
+	.header_course{
+		width: 500px;
+		height: 45px;
+		float: left;
+	}
+	.header_course li {
+		float: left;
+		color: #666666;
+	}
+	
+	.header_course li:nth-of-type(1) {
+		width: 70px;
+		height: 45px;
+		-background: pink;
+		padding-left: 22px;
+		padding-top: 5px;
+		box-sizing: border-box;
+	}
+	
+	.header_course li:nth-of-type(2) {
+		width: 185px;
+		height: 45px;
+		-background: orange;
+		line-height: 45px;
+	}
+	
+	.header_course li:nth-of-type(3) {
+		width: 200px;
+		height: 45px;
+		-background: gold;
+		line-height: 45px;
+	}
+	
+	.content {
+		width: 100%;
+		padding: 10px 20px 15px 20px;
+		box-sizing: border-box;
+	}
+	table{
+		width: 100%;
+		overflow: hidden;
+    	color: #495060;
+    	font-size: 12px;
+		font-family: "Microsoft"; 
+	}
+	table th{
+		border: 1px solid #dddee1;
+		height: 40px;
+    	white-space: nowrap;
+    	overflow: hidden;
+    	background-color: #f8f8f9;
+	}
+	table tr td {
+		border: 1px solid #dddee1;
+		width: 200px;
+		height: 47px;
+		text-align: center;
+		line-height: 47px;
+	}
+	
+	.page:hover {
+		background: #f9fafc;
+	}
+	/*清单视图css*/
+	.week_list{
+		width: 100%;
+		padding-left: 152px;
+		-padding-top: 20px;
+	}
+	.box_list {
+		width: 100%;
+		border: 1px solid #dddee1;
+		-padding-left: 152px;
+		-padding-top: 20px;
+	}
+	
+	.head_list {
+		width: 100%;
+		height: 45px;
+		border-bottom: 1px solid #dddee1;
+		background: #f8f8f9;
+	}
+	
+	.header_course li {
+		float: left;
+		color: #666666;
+	}
+	
+	.header_course li:nth-of-type(1) {
+		width: 70px;
+		height: 45px;
+		-background: pink;
+		padding-left: 22px;
+		padding-top: 5px;
+		box-sizing: border-box;
+	}
+	
+	.header_course li:nth-of-type(2) {
+		width: 185px;
+		height: 45px;
+		-background: orange;
+		line-height: 45px;
+	}
+	
+	.header_course li:nth-of-type(3) {
+		width: 200px;
+		height: 45px;
+		-background: gold;
+		line-height: 45px;
+	}
+	
+	.content_list {
+		width: 100%;
+		padding: 10px 20px 15px 20px;
+		box-sizing: border-box;
+	}
+	
+	.tr_class:nth-of-type(1) {
+		background: #f8f8f9;
+	}
+	
+	.tr_class:hover {
+		background: #f9fafc;
+	}
+	
+	.tr_class:nth-of-type(1):hover {
+		background: #f1f2f3;
+	}
+	

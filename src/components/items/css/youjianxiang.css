@@ -1,0 +1,142 @@
+
+	.mail_type_color{
+		background: #2d8cf0;
+		color: white;
+	}
+	/*表框头css*/
+	
+	.box {
+		width: 92%;
+		min-width: 950px;
+		border: 1px solid #dddee1;
+	}
+	
+	.head {
+		width: 100%;
+		height: 45px;
+		border-bottom: 1px solid #dddee1;
+		background: #f8f8f9;
+	}
+	
+	.head li {
+		float: left;
+		color: #666666;
+	}
+	
+	.head li:nth-of-type(1) {
+		width: 70px;
+		height: 45px;
+		-background: pink;
+		padding-left: 22px;
+		padding-top: 5px;
+		box-sizing: border-box;
+	}
+	
+	.head li:nth-of-type(2) {
+		width: 400px;
+		height: 45px;
+		-background: orange;
+		line-height: 45px;
+	}
+	
+	.head li:nth-of-type(3) {
+		width: 200px;
+		height: 45px;
+		-background: gold;
+		line-height: 45px;
+	}
+	.search{
+		width: 385px;
+		height: 45px;
+		float: right;
+		padding-top: 4px;
+		box-sizing: border-box;
+	}
+	/*表css*/
+	.content {
+		width: 100%;
+		height: 620px;
+		position: relative;
+		padding: 0px 0px 0px 0px;
+		box-sizing: border-box;
+	}
+	.content_left{
+		width: 180px;
+		height: 620px;
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		z-index: 3;
+		padding-top: 10px;
+		box-sizing: border-box;
+	}
+	.content_left li{
+		width: 180px;
+		height: 40px;
+		-border: 1px solid #dddee1;
+		text-align: center;
+		line-height: 40px;
+	}
+	.content_left li:nth-of-type(1){
+		border: 1px solid #dddee1;
+	}
+	.content_left li:nth-of-type(2){
+		border-left: 1px solid #dddee1;
+		border-right: 1px solid #dddee1;
+		border-bottom: 1px solid #dddee1;
+	}
+	.content_left li:nth-of-type(3){
+		border-left: 1px solid #dddee1;
+		border-right: 1px solid #dddee1;
+	}
+	.content_left li:nth-of-type(4){
+		border: 1px solid #dddee1;
+	}
+	.mail_color{
+		background: #1abc9c;
+		color: white;
+	}
+	.content_right{
+		width: 100%;
+		height: 620px;
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		z-index: 1;
+		padding-left: 180px;
+		margin-left: 10px;
+		margin-top: 10px;
+		-padding: 10px 10px 0px 10px;
+		-box-sizing: border-box;
+	}	
+	.ivew_tables{
+		width: 97.8%;
+		height: 560px;
+		overflow: auto;
+	}
+	/*iview page*/
+	.iview_pages{
+		width: 97.8%;
+		height: 50px;
+		padding-top: 8px;
+		box-sizing: border-box;
+		-border: 1px solid #dddee1;
+	}
+	.page_left{
+		width: 260px;
+		height: 42px;
+		float: left;
+		padding: 0px 0px 0px 20px;
+		box-sizing: border-box;
+	}
+	.page_right{
+		height: 42px;
+		float: right;
+		padding: 0px 30px 0px 0px;
+		box-sizing: border-box;
+	}
+
+
+	
+
+	

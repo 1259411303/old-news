@@ -1,0 +1,167 @@
+    /*弹窗*/
+	.popups_open {
+		width: 700px;
+		height: 265px;
+		background: #ffffff;
+	}
+	.popups_content{
+		width: 100%;
+		height: 260px;
+		-border-bottom: 1px solid #dddee1;
+	}
+	.popups_content_type{
+		width: 700px;
+		height: 60px;
+		-background: pink;
+	}
+	.popups_content_type_left{
+		width: 145px;
+		height: 60px;
+		float: left;
+		padding-top: 20px;
+		padding-left: 50px;
+		box-sizing: border-box;
+		-background: #008000;
+	}
+	.popups_content_type_right{
+		width: 555px;
+		height: 60px;
+		float: right;
+		padding-top: 20px;
+		box-sizing: border-box;
+		-background: rosybrown;
+	}
+	.popups_content_type_left span{
+		width: 75px;
+		height: 30px;
+		text-align: center;
+		display: inline-block;
+		line-height: 30px;
+	}
+	.popups_content_people{
+		width: 700px;
+		height: 50px;
+		-background: orange;
+	}
+	.popups_content_people_left{
+		width: 145px;
+		height: 50px;
+		float: left;
+		padding-top: 10px;
+		padding-left: 50px;
+		box-sizing: border-box;
+		-background: palegreen;
+	}
+	.popups_content_people_right{
+		width: 555px;
+		height: 50px;
+		float: right;
+		padding-top: 10px;
+		box-sizing: border-box;
+		-background: darkgray;
+	}
+	.popups_content_people_left span{
+		width: 75px;
+		height: 30px;
+		text-align: center;
+		display: inline-block;
+		line-height: 30px;
+	}
+	.popups_content_room{
+		width: 700px;
+		height: 50px;
+		-background: blue;
+	}
+	.popups_content_room_left{
+		width: 145px;
+		height: 50px;
+		float: left;
+		padding-top: 10px;
+		padding-left: 50px;
+		box-sizing: border-box;
+		-background: gold;
+	}
+	.popups_content_room_right{
+		width: 555px;
+		height: 50px;
+		float: right;
+		padding-top: 5px;
+		box-sizing: border-box;
+		-background: aqua;
+	}
+	.popups_content_room_left span{
+		width: 75px;
+		height: 30px;
+		text-align: center;
+		display: inline-block;
+		line-height: 30px;
+	}
+	.popups_content_equipment{
+		width: 700px;
+		height: 100px;
+		-background: orange;
+	}
+	.popups_content_equipment_left{
+		width: 145px;
+		height: 100px;
+		float: left;
+		padding-top: 10px;
+		padding-left: 50px;
+		box-sizing: border-box;
+		-background: yellowgreen;
+	}
+	.popups_content_equipment_right{
+		width: 555px;
+		height: 100px;
+		float: right;
+		padding-top: 5px;
+		box-sizing: border-box;
+		-background: gray;
+	}
+	.popups_content_equipment_left span{
+		width: 75px;
+		height: 30px;
+		text-align: center;
+		display: inline-block;
+		line-height: 30px;
+	}
+	.popups_footer{
+		width: 100%;
+		height: 35px;
+	}
+	.popups_footer_left{
+		width: 350px;
+		height: 35px;
+		float: left;
+	}
+	.popups_footer_left span{
+		padding-top: 5px;
+		box-sizing: border-box;
+		float: left;
+	}
+	.popups_footer_right{
+		width: 350px;
+		height: 35px;
+		float: right;
+	}
+
+	
+	.popups_footer_right button:nth-of-type(1) {
+		width: 60px;
+		height: 35px;
+		font-size: 12px;
+		border-radius: 4px;
+		float: right;
+		border: none;
+		outline: none;
+		color: white;
+	}
+	.room_type_color{
+		color: white;
+		background: #2d8cf0;
+	}
+	/*气泡提示*/
+	.poptip_api{
+		width: 180px;
+		text-align: left;
+	}

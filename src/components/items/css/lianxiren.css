@@ -1,0 +1,167 @@
+    /*联系人弹窗弹窗*/
+	.popups_open {
+		width: 700px;
+		height: 390px;
+	}
+	.popups_content{
+		width: 100%;
+		height: 375px;
+	}
+	.popups_content_top{
+		width: 700px;
+		height: 45px;
+		padding-left: 25px;
+		padding-top: 10px;
+		box-sizing: border-box;
+		font-size: 14px;
+		margin-bottom: 10px;
+	}
+	.popups_content_top ul{
+		height: 35px;
+		border-left: 1px solid #dddee1;
+	}
+	.popups_content_top li{
+		width: 110px;
+		height: 35px;
+		float: left;
+		text-align: center;
+		line-height: 35px;
+		border-right: 1px solid #dddee1;
+		border-top: 1px solid #dddee1;
+		border-bottom: 1px solid #dddee1;
+	}
+	/*.classify_color{
+		background: #2d8cf0;
+		color: white;
+	}*/
+	.popups_content_middle{
+		width: 700px;
+		height: 330px;
+	}
+	.popups_content_middle_left{
+		width: 190px;
+		height: 330px;
+		float: left;
+		padding-left: 25px;
+		padding-top: 4px;
+		box-sizing: border-box;
+		overflow: auto;
+	}
+	.contacts_color{
+		color: #2d8cf0;
+	}
+	.popups_content_middle_left ul{
+		width: 145px;
+		border-left: 1px solid #dddee1;
+		border-top: 1px solid #dddee1;
+	}
+	.popups_content_middle_left li{
+		width: 145px;
+		height: 40px;
+		text-indent: 13px;
+		line-height: 40px;
+		border-right: 1px solid #dddee1;
+		border-bottom: 1px solid #dddee1;
+	}
+	.popups_content_middle_right{
+		width: 510px;
+		height: 330px;
+		float: right;
+	}
+	.popups_content_middle_right_top{
+		width: 520px;
+		height: 45px;
+		padding-top: 4px;
+		box-sizing: border-box;
+	}
+	/*.popups_content_middle_right_top button:nth-of-type(1){
+		width: 42px;
+		height: 28px;
+		background: #ed3f14;
+		border-radius: 4px;
+		color: white;
+		border: none;
+		outline: none;
+	}
+	.popups_content_middle_right_top button:nth-of-type(2){
+		width: 42px;
+		height: 28px;
+		background: white;
+		color: #999999;
+		border-radius: 4px;
+		margin-left: 10px;
+		border: 1px solid #dddee1;
+		outline: none;
+	}*/
+	.popups_content_middle_right_bottom{
+		width: 520px;
+		height: 285px;
+	}
+	/*.popups_content_middle_right_bottom button{
+		width: 60px;
+		height: 25px;
+		float: left;
+		margin-right: 10px;
+		margin-bottom: 10px;
+		outline: none;
+		text-align: center;
+		line-height: 25px;
+		border: 1px solid #2d8cf0;
+		border-radius: 4px;
+	}*/
+	.select_number{
+		background: #2d8cf0;
+		color: white;
+	}
+	.stage_color{
+		background: #ff9900;
+		color: white;
+	}
+	.popups_footer{
+		width: 100%;
+		height: 35px;
+		-background: red;
+	}
+	.popups_footer_left{
+		width: 350px;
+		height: 35px;
+		float: left;
+	}
+	.popups_footer_left div{
+		float: left;
+	}
+	.popups_footer_right{
+		width: 350px;
+		height: 35px;
+		float: right;
+	}
+	.popups_footer_right button:nth-of-type(2) {
+		width: 60px;
+		height: 35px;
+		font-size: 12px;
+		margin-left: 0px;
+		background: #ffffff;
+		border-radius: 4px;
+		float: right;
+		outline: none;
+		border: none;
+		color: #495060;
+	}
+	
+	.popups_footer_right button:nth-of-type(1) {
+		width: 60px;
+		height: 35px;
+		font-size: 12px;
+		float: right;
+		margin-left: 10px;
+		border-radius: 4px;
+		border: none;
+		outline: none;
+		color: white;
+	}
+/*颜色*/
+.ivu-btn-primary {
+    color: #fff;
+    background-color: #2d8cf0;
+    border-color: #2d8cf0;
+}

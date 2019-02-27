@@ -1,0 +1,87 @@
+/*轮播图*/
+.activity_content_lun {
+	width: 700px;
+	height: 500px;
+	padding-left: 34px;
+	padding-right: 34px;
+	box-sizing: border-box;
+	position: relative;
+}
+
+.lun_bo_frames {
+	width: 635px;
+	height: 500px;
+	border-radius: 15px;
+	overflow: hidden;
+	position: relative;
+}
+
+.nav_imgs {
+	-width: 1605px;
+	height: 100px;
+	position: absolute;
+}
+
+.nav_imgs li {
+	width: 635px;
+	-padding-right: 5px;
+	-box-sizing: border-box;
+	list-style: none;
+	float: left;
+}
+
+.nav_imgs li img {
+	width: 635px;
+	height: 500px;
+	border: 0;
+	outline: none;
+}
+
+.prev,.next {
+	position: absolute;
+	text-align: center;
+	cursor: pointer;
+}
+
+.prev {
+	left: -350px;
+	top: 150px;
+}
+
+.next {
+	right: -350px;
+	top: 150px;
+}
+.lun_bo_circle{
+	position: absolute;
+	left: 635px;
+	top: 70px;
+}
+.lun_bo_circle li{
+	width: 20px;
+	height: 20px;
+	float: left;
+	margin-left: 5px;
+	text-align: center;
+	line-height: 19px;
+	border-radius: 50%;
+	border: 1px solid #2d8cf0;
+	-background: red;
+}
+.circle_color{
+	background: #ed3f14;
+	color: white;
+}
+
+
+
+.ivu-modal-footer,.ivu-modal-header {
+	border: none;
+	padding: 0px;
+}
+.ivu-modal-content{
+	background: rgba(49,49,49,0);
+}
+.popups_content{
+	position: relative;
+}

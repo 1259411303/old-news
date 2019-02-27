@@ -1,0 +1,362 @@
+
+	/*保修信息css*/
+	.box {
+		width: 92%;
+		min-width: 800px;
+		border: 1px solid #dddee1;
+	}
+	
+	.head_list {
+		width: 100%;
+		height: 45px;
+		border-bottom: 1px solid #dddee1;
+		background: #f8f8f9;
+	}
+	
+	.head_list li {
+		float: left;
+		color: #666666;
+	}
+	
+	.head_list li:nth-of-type(1) {
+		width: 70px;
+		height: 45px;
+		-background: pink;
+		padding-left: 22px;
+		padding-top: 5px;
+		box-sizing: border-box;
+	}
+	
+	.head_list li:nth-of-type(2) {
+		width: 185px;
+		height: 45px;
+		-background: orange;
+		line-height: 45px;
+	}
+	.head_list div{
+		width: 110px;
+		height: 35px;
+		border: 1px solid #dddee1;
+		border-radius: 4px;
+		float: right;
+		margin-right: 20px;
+		margin-top: 5px;
+		text-align: center;
+		line-height: 35px;
+	}
+	
+	.content{
+		width: 100%;
+		height: 580px;
+		padding-left: 20px;
+		padding-top: 10px;
+		padding-right: 10px;
+		-background: #4444E0;
+	}
+	table{
+		width: 100%;
+		-margin-left: 20px;
+		-margin-top: 10px;
+	}
+	table tr:nth-of-type(1){
+		background: #f8f8f9;
+	}
+	table td{
+		border: 1px solid #dddee1;
+		text-align: center;
+		line-height: 40px;
+	}
+	table td:nth-of-type(1){
+		width: 150px;
+		height: 40px;
+	}
+	table td:nth-of-type(2){
+		width: 340px;
+		height: 40px;
+	}
+	table td:nth-of-type(3){
+		width: 180px;
+		height: 40px;
+	}
+	table td:nth-of-type(4){
+		width: 120px;
+		height: 40px;
+	}
+	table td:nth-of-type(5){
+		width: 120px;
+		height: 40px;
+	}
+	table td:nth-of-type(6){
+		width: 150px;
+		height: 40px;
+	}
+	.cancel{
+		width: 68px;
+		height: 28px;
+		border-radius: 4px;
+		line-height: 28px;
+		background: #ed3f14;
+		display: inline-block;
+		color: white;
+	}
+	.send{
+		width: 85px;
+		height: 28px;
+		border-radius: 4px;
+		line-height: 28px;
+		background: #19be6b;
+		display: inline-block;
+		color: white;
+	}
+ /*报修内容弹窗*/
+	.popups_open {
+		width: 600px;
+		height: 295px;
+		background: #ffffff;
+	}
+	.popups_content{
+		width: 100%;
+		height: 290px;
+		padding-left: 22px;
+		box-sizing: border-box;
+		-border-bottom: 1px solid #dddee1;
+	}
+	.content_custom{
+		width: 550px;
+		height: 48px;
+		border-bottom: 1px dashed #dddee1;
+	}
+	.content_custom_left{
+		width: 80px;
+		height: 48px;
+		text-align: center;
+		line-height: 48px;
+		color: #19be6b;
+		float: left;
+	}
+	.content_custom_input{
+		width: 470px;
+		height: 48px;
+		padding-top: 10px;
+		box-sizing: border-box;
+		float: left;
+	}
+	.content_custom input{
+		width: 470px;
+		height: 28px;
+		line-height: 28px;
+		color: #afb0b5;
+		border: 1px solid #dddee1;
+		border-radius: 4px;
+		text-indent: 10px;
+		display: block;
+	}
+	.content_computer{
+		width: 550px;
+		height: 30px;
+		font-size: 17px;
+		line-height: 30px;
+		margin-top: 10px;
+	}
+	.content_computer_li{
+		width: 550px;
+		height: 60px;
+	}
+	.content_computer_li li{
+		width: 100px;
+		height: 28px;
+		float: left;
+		margin-bottom: 2px;
+		border-radius: 4px;
+		line-height: 28px;
+		text-indent: 10px;
+		margin-right: 70px;
+	}
+	.content_computer_li li:hover{
+		color: #2d8cf0;
+		border: 1px solid #2d8cf0;
+	}
+	.content_network{
+		width: 550px;
+		height: 30px;
+		font-size: 17px;
+		line-height: 30px;
+		margin-top: 5px;
+	}
+	.content_network_li{
+		width: 550px;
+		height: 30px;
+	}
+	.content_network_li li{
+		width: 100px;
+		height: 28px;
+		float: left;
+		margin-bottom: 2px;
+		border-radius: 4px;
+		line-height: 28px;
+		text-indent: 10px;
+		margin-right: 70px;
+	}
+	.content_network_li li:hover{
+		color: #2d8cf0;
+		border: 1px solid #2d8cf0;
+	}
+	.content_other{
+		width: 550px;
+		height: 30px;
+		font-size: 17px;
+		line-height: 30px;
+		margin-top: 5px;
+	}
+	.content_other_li{
+		width: 550px;
+		height: 30px;
+	}
+	.content_other_li li{
+		width: 100px;
+		height: 28px;
+		float: left;
+		margin-bottom: 2px;
+		border-radius: 4px;
+		line-height: 28px;
+		text-indent: 10px;
+		margin-right: 70px;
+	}
+	.content_other_li li:hover{
+		color: #2d8cf0;
+		border: 1px solid #2d8cf0;
+	}
+	.popups_footer{
+		width: 100%;
+		height: 35px;
+	}
+	.popups_footer button:nth-of-type(1) {
+		width: 60px;
+		height: 35px;
+		font-size: 12px;
+		border-radius: 4px;
+		float: right;
+		border: none;
+		outline: none;
+		color: white;
+	}
+	.select_information{
+		color: #2d8cf0;
+		border: 1px solid #2d8cf0;
+	}
+ /*报修位置弹窗*/
+	.count_color{
+		color: red;
+	}
+	.select_data_color{
+		background: #2d8cf0;
+		color: white;
+	}
+	.popups_position_open {
+		width: 700px;
+		height: 360px;
+		background: #ffffff;
+	}
+	.popups_position_content{
+		width: 100%;
+		height: 360px;
+		-border-bottom: 1px solid #dddee1;
+	}
+	.popups_position_content_architecture{
+		width: 185px;
+		height: 360px;
+		float: left;
+		-background: gainsboro;
+	}
+	.popups_position_content_architecture ul{
+		width: 145px;
+		border-top: 1px solid #dddee1;
+		margin-left: 30px;
+		margin-top: 10px;
+	}
+	.popups_position_content_architecture li{
+		width: 145px;
+		height: 40px;
+		text-align: center;
+		line-height: 40px;
+		border-left: 1px solid #dddee1;
+		border-right: 1px solid #dddee1;
+		border-bottom: 1px solid #dddee1;
+	}
+	.popups_position_content_floor{
+		width: 150px;
+		height: 360px;
+		float: left;
+		-background: yellowgreen;
+	}
+	.popups_position_content_floor ul{
+		width: 125px;
+		border-top: 1px solid #dddee1;
+		margin-top: 10px;
+	}
+	.popups_position_content_floor li{
+		width: 125px;
+		height: 40px;
+		text-align: center;
+		line-height: 40px;
+		border-left: 1px solid #dddee1;
+		border-right: 1px solid #dddee1;
+		border-bottom: 1px solid #dddee1;
+	}
+	.popups_position_content_room{
+		width: 365px;
+		height: 360px;
+		float: left;
+		-background: indianred;
+	}
+	.room_frame{
+		width: 325px;
+		height: 320px;
+		margin-top: 10px;
+		border: 1px solid #dddee1;
+	}
+	.room_frame_top{
+		width: 325px;
+		height: 40px;
+		line-height: 40px;
+		text-indent: 10px;
+		-background: grey;
+		border-bottom: 1px solid #dddee1;
+	}
+	.room_frame_bottom{
+		width: 325px;
+		height: 280px;
+		-background: cyan;
+		padding-top: 15px;
+		box-sizing: border-box;
+	}
+	.popups_position_footer{
+		width: 100%;
+		height: 35px;
+	}
+	.popups_position_footer_left{
+		width: 350px;
+		height: 35px;
+		float: left;
+	}
+	.popups_position_footer_left span{
+		float: left;
+		padding-top: 5px;
+		box-sizing: border-box;
+	}
+	.popups_position_footer_right{
+		width: 350px;
+		height: 35px;
+		float: right;
+	}
+	.popups_position_footer_right button:nth-of-type(1) {
+		width: 60px;
+		height: 35px;
+		font-size: 12px;
+		border-radius: 4px;
+		float: right;
+		border: none;
+		outline: none;
+		color: white;
+	}
+

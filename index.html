@@ -1,0 +1,41 @@
+<!-- vue-cli脚手架 -->
+<!-- 请始终向 HTML 文档添加 <!DOCTYPE> 声明，这样浏览器才能获知文档类型。 -->
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- “utf-8”是一种字符编码。charset=”utf-8”是告知浏览器此页面属于什么字符编码格式，下一步浏览器做好“翻译”工作 -->
+        <!-- 常见的字符编码有:
+        gbk：国家标准扩展版
+        unicode：万国码
+        **utf-8：**unicode的升级版。 -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>夕阳红雾</title>
+
+  <!-- 以750px为基准设计尺寸自动适配 -->
+  <!-- 既是ps调375px的设计图，测量的值除10就等rem---(64px/10=6.4rem) -->
+  <!-- 注意-注意:谷歌浏览器最小字体为12像素，但手机上没限制
+  因此，想用10字体像素，得谷歌设置-自定义字体为10以下 -->
+  <script type="text/javascript">
+    (function (doc, win) {
+       var docEl = doc.documentElement,
+         resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+         recalc = function () {
+           var clientWidth = docEl.clientWidth; 
+           if (!clientWidth) return;
+           docEl.style.fontSize = 10 * (clientWidth / 375) + 'px';//其中“10”根据你设置的html的font-size属性值做适当的变化
+           //docEl.style.fontSize = 16 * (clientWidth / 375) + 'px';//其中“16”根据你设置的html的font-size属性值做适当的变化
+         };
+ 
+       if (!doc.addEventListener) return;
+       win.addEventListener(resizeEvt, recalc, false);
+       doc.addEventListener('DOMContentLoaded', recalc, false);
+     })(document, window);
+ </script>
+
+</head>
+<body>
+<div id="app"></div>
+<!-- 生成的文件将自动注入 -->
+</body>
+</html>

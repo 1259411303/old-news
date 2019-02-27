@@ -1,0 +1,341 @@
+.things_frames{
+	width: 92%;
+	min-width: 920px;
+}
+.header_things {
+	width: 100%;
+	height: 50px;
+	background: #f8f8f9;
+}
+
+.header_things_left {
+	width: 400px;
+	height: 50px;
+	float: left;
+}
+
+.header_things_left li {
+	float: left;
+}
+
+.header_things_left li:nth-of-type(1) {
+	width: 60px;
+	height: 50px;
+	padding-left: 22px;
+	padding-top: 5px;
+	box-sizing: border-box;
+}
+
+.header_things_left li:nth-of-type(2) {
+	width: 300px;
+	height: 50px;
+	line-height: 45px;
+}
+
+.header_things_right {
+	width: 515px;
+	height: 50px;
+	float: right;
+}
+
+.class_things {
+	width: 100%;
+	height: 450px;
+	position: relative;
+	padding-left: 10px;
+	padding-top: 10px;
+}
+
+.sports_meeting {
+	width: 290px;
+	height: 450px;
+	position: absolute;
+	left: 0px;
+	right: 0px;
+	z-index: 3;
+	-background: #19BE6B;
+}
+
+.sports_meeting_things {
+	width: 290px;
+	height: 80px;
+	-background: #2D8CF0;
+}
+
+.sports_meeting_date {
+	width: 70px;
+	height: 80px;
+	padding-top: 15px;
+	box-sizing: border-box;
+	float: left;
+	-background: yellowgreen;
+}
+
+.sports_meeting_date_top {
+	width: 70px;
+	height: 25px;
+	line-height: 25px;
+	-background: chartreuse;
+}
+
+.sports_meeting_date_top span {
+	float: right;
+	margin-right: 10px;
+}
+
+.sports_meeting_date_bottom {
+	width: 70px;
+	height: 25px;
+	-background: darkcyan;
+}
+
+.sports_meeting_date_bottom span {
+	float: right;
+	margin-right: 10px;
+}
+
+.sports_meeting_icon {
+	width: 40px;
+	height: 80px;
+	float: left;
+	-background: green;
+}
+
+.sports_meeting_icon div:nth-of-type(1) {
+	width: 20px;
+	height: 20px;
+}
+
+.sports_meeting_icon div:nth-of-type(1) span {
+	width: 19px;
+	height: 20px;
+	display: inline-block;
+	-background: yellowgreen;
+	border-right: 2px solid #dddee1;
+}
+
+.sports_meeting_icon div:nth-of-type(2) {
+	width: 40px;
+	height: 40px;
+	-background: pink;
+}
+
+.sports_meeting_icon div:nth-of-type(3) {
+	width: 20px;
+	height: 20px;
+}
+
+.sports_meeting_icon div:nth-of-type(3) span {
+	width: 19px;
+	height: 20px;
+	display: inline-block;
+	-background: yellowgreen;
+	border-right: 2px solid #dddee1;
+}
+
+.sports_meeting_text {
+	width: 180px;
+	height: 80px;
+	float: left;
+	padding-top: 15px;
+	box-sizing: border-box;
+	-background: deeppink;
+}
+
+.sports_meeting_text_top {
+	width: 180px;
+	height: 25px;
+	line-height: 25px;
+	-background: chartreuse;
+}
+
+.sports_meeting_text_top span {
+	margin-left: 10px;
+}
+
+.sports_meeting_text_bottom {
+	width: 180px;
+	height: 25px;
+	line-height: 25px;
+	-background: darkcyan;
+}
+
+.sports_meeting_text_bottom span {
+	margin-left: 10px;
+}
+
+.active_photo {
+	width: 100%;
+	height: 450px;
+	padding-left: 290px;
+	position: absolute;
+	left: 0px;
+	right: 0px;
+	z-index: 2;
+	border: 1px solid #dddee1;
+}
+
+.active_photo_header {
+	width: 600px;
+	height: 80px;
+	color: #495060;
+}
+
+.active_photo_header_left {
+	width: 530px;
+	height: 70px;
+	float: left;
+	padding-left: 30px;
+	padding-top: 17px;
+	box-sizing: border-box;
+}
+
+.active_photo_header_right {
+	width: 70px;
+	height: 70px;
+	float: left;
+	padding-top: 35px;
+	box-sizing: border-box;
+}
+
+.active_photo_dl dt {
+	width: 50px;
+	height: 50px;
+	float: left;
+}
+
+.head_portrait {
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+}
+
+.active_photo_dl dd:nth-of-type(1) {
+	width: 250px;
+	height: 25px;
+	text-indent: 5px;
+	line-height: 25px;
+}
+
+.active_photo_dl dd:nth-of-type(2) {
+	width: 250px;
+	height: 25px;
+	text-indent: 5px;
+	line-height: 25px;
+}
+
+.active_photo_text {
+	width: 600px;
+	height: 180px;
+	background: darkgray;
+}
+
+.active_photo_lun {
+	width: 600px;
+	height: 188px;
+	padding-top: 10px;
+	overflow: auto;
+}
+
+.activity_content_text {
+	width: 600px;
+	height: 180px;
+	text-indent: 30px;
+	padding-left: 20px;
+	box-sizing: border-box;
+}
+
+.storage_file {
+	width: 600px;
+	height: 100px;
+	padding-top: 20px;
+	padding-left: 30px;
+	box-sizing: border-box;
+}
+.storage_file li {
+	float: left;
+	margin-right: 5px;
+	margin-bottom: 5px;
+}
+
+/*轮播图*/
+
+.activity_content_lun {
+	width: 600px;
+	height: 100px;
+	padding-left: 34px;
+	padding-right: 34px;
+	box-sizing: border-box;
+	position: relative;
+}
+
+.lun_bo_frames {
+	width: 535px;
+	height: 100px;
+	overflow: hidden;
+	position: relative;
+	z-index: 3;
+}
+
+.nav_imgs {
+	width: 1605px;
+	height: 100px;
+	position: absolute;
+}
+
+.nav_imgs li {
+	width: 107px;
+	padding-right: 5px;
+	box-sizing: border-box;
+	list-style: none;
+	float: left;
+}
+
+.nav_imgs li img {
+	width: 102px;
+	height: 100px;
+	border: 0;
+	outline: none;
+}
+
+.prev,.next {
+	width: 30px;
+	height: 40px;
+	-background: rgba(45, 45, 45, 0.5);
+	position: absolute;
+	text-align: center;
+	line-height: 40px;
+	font-size: 30px;
+	cursor: pointer;
+}
+
+.prev {
+	left: 0px;
+	top: 30px;
+}
+
+.next {
+	right: 0;
+	top: 30px;
+}
+.lun_bo_circle{
+	position: absolute;
+	left: 212px;
+	top: 70px;
+}
+.lun_bo_circle li{
+	width: 20px;
+	height: 20px;
+	float: left;
+	margin-left: 5px;
+	text-align: center;
+	line-height: 19px;
+	border-radius: 50%;
+	border: 1px solid #2d8cf0;
+	-background: red;
+}
+.circle_color{
+	background: #ed3f14;
+	color: white;
+}
+

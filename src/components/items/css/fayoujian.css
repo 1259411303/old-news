@@ -1,0 +1,231 @@
+
+	/*表框头css*/
+	.box{
+		-width: 1100px;
+		width: 92%;
+		min-width: 1102px;
+		height: 590px;
+		border: 1px solid #dddee1;
+	}
+	.active_color{
+		background: #2d8cf0;
+		color: white;
+	}
+	
+	.head {
+		width: 100%;
+		height: 45px;
+		border-bottom: 1px solid #dddee1;
+		background: #f8f8f9;
+	}
+	
+	.head li {
+		float: left;
+		color: #666666;
+	}
+	
+	.head li:nth-of-type(1) {
+		width: 70px;
+		height: 45px;
+		-background: pink;
+		padding-left: 22px;
+		padding-top: 5px;
+		box-sizing: border-box;
+	}
+	
+	.head li:nth-of-type(2) {
+		width: 400px;
+		height: 45px;
+		-background: orange;
+		line-height: 45px;
+	}
+	
+	.head li:nth-of-type(3) {
+		width: 200px;
+		height: 45px;
+		-background: gold;
+		line-height: 45px;
+	}
+	.head_right{
+		width: 180px;
+		height: 44px;
+		float: right;
+	}
+	/*表css*/
+	.send_frames{
+		width: 100%;
+		padding-left: 20px;
+		padding-top: 10px;
+		padding-right: 10px;
+	}
+	.send_box{
+		width: 100%;
+		height: 480px;
+		-margin-left: 20px;
+		-margin-top: 10px;
+		border: 1px solid #dddee1;
+	}
+	.send_object{
+		width: 100%;
+		height: 50px;
+		border-bottom: 1px solid #dddee1;
+	}
+	.send_object_left{
+		width: 14.4%;
+		height: 49px;
+		line-height: 49px;
+		color: #666666;
+		font-size: 13px;
+		text-indent: 80px;
+		float: left;
+		background: #f8f8f9;
+		border-right: 1px solid #dddee1;
+	}
+	.send_object_right{
+		width: 85.6%;
+		height: 49px;
+		float: right;
+		padding-top: 6px;
+		box-sizing: border-box;
+		-background: #b5e7c8;
+	}
+	.mail_title{
+		width: 100%;
+		height: 50px;
+		border-bottom: 1px solid #dddee1;
+	}
+	.mail_title_left{
+		width: 14.4%;
+		height: 49px;
+		line-height: 49px;
+		color: #666666;
+		font-size: 13px;
+		text-indent: 80px;
+		float: left;
+		background: #f8f8f9;
+		border-right: 1px solid #dddee1;
+	}
+	.mail_title_right{
+		width: 85.6%;
+		height: 49px;
+		float: right;
+		-background: #b5e7c8;
+	}
+	.mail_text{
+		width: 100%;
+		height: 280px;
+		border-bottom: 1px solid #dddee1;
+	}
+	.mail_text_left{
+		width: 14.4%;
+		height: 279px;
+		line-height: 279px;
+		color: #666666;
+		font-size: 13px;
+		text-indent: 80px;
+		float: left;
+		background: #f8f8f9;
+		border-right: 1px solid #dddee1;
+	}
+	.mail_text_right{
+		width: 85.6%;
+		height: 279px;
+		float: right;
+		-background: #b5e7c8;
+	}
+	  .editor-eara {
+	    height: 270px;
+	    width: 860px;
+	    margin: 4px auto;
+	  }
+	.mail_enclosure{
+		width: 100%;
+		height: 50px;
+		border-bottom: 1px solid #dddee1;
+	}
+	.mail_enclosure_left{
+		width: 14.4%;
+		height: 49px;
+		line-height: 49px;
+		color: #666666;
+		font-size: 13px;
+		text-indent: 80px;
+		float: left;
+		background: #f8f8f9;
+		border-right: 1px solid #dddee1;
+	}
+	.mail_enclosure_right{
+		width: 85.6%;
+		height: 49px;
+		float: right;
+		padding-left: 15px;
+		padding-top: 4px;
+		box-sizing: border-box;
+		overflow-y: scroll;
+		-background: #b5e7c8;
+	}
+	.mail_important{
+		width: 100%;
+		height: 50px;
+		border-bottom: 1px solid #dddee1;
+	}
+	.mail_important_left{
+		width: 14.4%;
+		height: 49px;
+		line-height: 49px;
+		color: #666666;
+		font-size: 13px;
+		text-indent: 80px;
+		float: left;
+		background: #f8f8f9;
+		border-right: 1px solid #dddee1;
+	}
+	.mail_important_right{
+		width: 85.6%;
+		height: 49px;
+		float: right;
+		-background: #b5e7c8;
+	}
+	.mail_important_right span:nth-of-type(1){
+		width: 80px;
+		height: 40px;
+		display: inline-block;
+		color: white;
+		font-size: 14px;
+		text-align: center;
+		line-height: 40px;
+		margin-left: 40px;
+		color: #666666;
+		margin-top: 4px;
+		font-family: "Microsoft";
+		-border: 1px solid #dddee1;
+	}
+	.mail_important_right span:nth-of-type(1):hover,.mail_important_right span:nth-of-type(2):hover{
+		color: #5b98f1;
+		cursor: pointer;
+	}
+	.mail_important_right span:nth-of-type(2){
+		width: 80px;
+		height: 40px;
+		display: inline-block;
+		color: white;
+		font-size: 14px;
+		text-align: center;
+		line-height: 40px;
+		margin-left: 40px;
+		color: #666666;
+		font-family: "Microsoft";
+		-border: 1px solid #dddee1;
+	}
+	.vertical-center-modal{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .ivu-modal{
+            top: 0;
+        }
+    }
+
+
+	
